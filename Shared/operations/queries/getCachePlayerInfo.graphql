@@ -1,0 +1,10 @@
+query getCachePlayerInfo($accountId: Float!){
+    getCachePlayerInfo(accountId: $accountId){
+        resultType
+        info{
+            accountId
+            nick
+            createdTime
+        }
+    }
+}

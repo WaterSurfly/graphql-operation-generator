@@ -1,0 +1,9 @@
+type PlayerInfoDto {
+    accountId: Float!
+    nick: String!
+    createdTime: String!
+}
+type PlayerInfoOutput {
+    resultType: ResultType!
+    info: PlayerInfoDto
+}

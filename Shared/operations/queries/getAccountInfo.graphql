@@ -1,0 +1,11 @@
+query getAccountInfo($accountId: Float!){
+    getAccountInfo(accountId: $accountId){
+        resultType
+        info{
+            accountId
+            loginId
+            createdTime
+            lastLoginTime
+        }
+    }
+}

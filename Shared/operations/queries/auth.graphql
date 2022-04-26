@@ -1,0 +1,12 @@
+query auth($id: String!){
+    auth(id: $id){
+        resultType
+        info{
+            accountId
+            loginId
+            createdTime
+            lastLoginTime
+        }
+        token
+    }
+}

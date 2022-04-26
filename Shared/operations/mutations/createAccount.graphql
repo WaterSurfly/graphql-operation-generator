@@ -1,0 +1,11 @@
+mutation createAccount($createAccountInput: AccountInputDto!){
+    createAccount(createAccountInput: $createAccountInput){
+        resultType
+        info{
+            accountId
+            loginId
+            createdTime
+            lastLoginTime
+        }
+    }
+}

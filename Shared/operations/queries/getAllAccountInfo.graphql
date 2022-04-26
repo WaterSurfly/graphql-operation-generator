@@ -1,0 +1,11 @@
+query getAllAccountInfo{
+    getAllAccountInfo{
+        resultType
+        infos{
+            accountId
+            loginId
+            createdTime
+            lastLoginTime
+        }
+    }
+}

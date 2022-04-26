@@ -1,0 +1,24 @@
+{
+  "name": "gql-exporter",
+  "version": "0.0.1",
+  "scripts": {
+    "op-generate": "node index.js --schemaFilePath ./Shared/graphql --destDirPath ./Shared/operations --depthLimit 5 --ext graphql",
+    "codegen": "graphql-codegen"
+  },
+  "dependencies": {
+    "@graphql-codegen/c-sharp-operations": "^2.2.8",
+    "@graphql-codegen/cli": "^2.6.2",
+    "@graphql-codegen/typescript-operations": "^2.3.5",
+    "commander": "^2.15.1",
+    "del": "^3.0.0",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.0.5",
+    "should": "^13.2.1"
+  },
+  "license": "MIT"
+}

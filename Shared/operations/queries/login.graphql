@@ -1,0 +1,11 @@
+query login($accountId: Float!){
+    login(accountId: $accountId){
+        resultType
+        info{
+            accountId
+            loginId
+            createdTime
+            lastLoginTime
+        }
+    }
+}

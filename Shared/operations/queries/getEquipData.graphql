@@ -1,0 +1,3 @@
+query getEquipData($equipIndex: Float!, $equipCode: Float!){
+    getEquipData(equipIndex: $equipIndex, equipCode: $equipCode)
+}

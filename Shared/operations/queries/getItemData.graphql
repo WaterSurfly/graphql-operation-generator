@@ -1,0 +1,3 @@
+query getItemData($itemIndex: Float!){
+    getItemData(itemIndex: $itemIndex)
+}

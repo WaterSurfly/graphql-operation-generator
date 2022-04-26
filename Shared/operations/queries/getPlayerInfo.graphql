@@ -1,0 +1,10 @@
+query getPlayerInfo($accountId: Float!){
+    getPlayerInfo(accountId: $accountId){
+        resultType
+        info{
+            accountId
+            nick
+            createdTime
+        }
+    }
+}

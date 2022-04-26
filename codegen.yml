@@ -1,0 +1,10 @@
+schema: 'Shared/graphql/**/*.graphql'
+documents: 'Shared/operations/**/*.graphql'
+generates:
+  Shared/server/Shared.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+  Shared/client/Shared.cs:
+    plugins:
+      - c-sharp-operations
